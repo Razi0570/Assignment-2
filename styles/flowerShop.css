@@ -33,9 +33,10 @@
 @media screen and (max-width: 393px) {
   nav,
   .section-title,
-  .section-description
+  .section-description,
+  .card-container
   {
-    margin: auto 16px
+    margin: auto 16px;
   }
 
   .nav-links{
@@ -54,7 +55,7 @@
   }
 
   .banner-image{
-    width: 100%;
+    max-width: 100%;
     margin: 28px auto;
   }
 
@@ -66,4 +67,21 @@
     font-size: .875rem;
   }
 
+  .card-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .card-item,
+  .card-button
+  {
+    width: 100%;
+  }
+  .card-button{
+    padding: 19px 30.5px;
+    white-space: nowrap;
+  }
+  .card-title,
+  .card-price
+  {
+    font-size: 16px;
+  }
 }
