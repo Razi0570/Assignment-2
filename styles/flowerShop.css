@@ -136,6 +136,11 @@
     margin-bottom: 45px;
   }
 
+  .latest-deals{
+    margin: auto 16px;
+    margin-bottom: 50px;
+  }
+  
   .deal-grid {
     grid-template-columns: repeat(1, 1fr);
     max-width: 361px;
@@ -143,7 +148,6 @@
     margin: auto 16px;
   }
   
-
   .deal-title {
     font-size: 20px;
     margin-bottom: 19px;
