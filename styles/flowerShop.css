@@ -37,23 +37,23 @@
 }
 
 /* Latest Deal Section styles */
-.bloom-bg{
-  background-image: url(../images/deal-bloom.png);
+/* .bloom-bg{
+  background-image: url(/images/deal-bloom.png);
 }
 
 .zabo-bg{
-  background-image: url(../images/deal-zabo.png);
+  background-image: url(/images/deal-zabo.png);
 }
 
 .ana-bg{
-  background-image: url(../images/deal-ana.png);
-}
+  background-image: url(/images/deal-ana.png);
+} */
 
 /* Join Section */
 
-.join-section{
-  background-image: url(../images/news-letter-bg.png);
-}
+/* .join-section{
+  background-image: url(/images/news-letter-bg.png);
+} */
 
 /* Mobile Screen Responsive */
 @media screen and (max-width: 393px) {
