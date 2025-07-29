@@ -41,7 +41,6 @@
 @media screen and (max-width: 393px) {
 
   nav,
-
   .plants-section {
     margin: auto 16px;
   }
@@ -141,14 +140,15 @@
     height: 581px;
     margin: auto 16px;
   }
+  
 
   .deal-title {
     font-size: 20px;
+    margin-bottom: 19px;
   }
 
   .deal-description {
     font-size: 16px;
-    margin-bottom: 50px;
   }
 
   .zabo-bg {
