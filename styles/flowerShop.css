@@ -21,6 +21,7 @@
   font-weight: bold;
 }
 
+/* Trust Badge Aimation Styles */
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -46,6 +47,12 @@
 
 .ana-bg{
   background-image: url(../images/deal-ana.png);
+}
+
+/* Join Section */
+
+.join-section{
+  background-image: url(../images/news-letter-bg.png);
 }
 
 /* Mobile Screen Responsive */
