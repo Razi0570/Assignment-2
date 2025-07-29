@@ -21,9 +21,19 @@
   font-weight: bold;
 }
 
-/* Nav Styles */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }  
+}
 
-/* Plants section styles */
+.trusted-badge:hover{
+  filter: drop-shadow(0 0 #0000);
+  animation: spin 2s linear infinite;
+}
 
 /* Join Section styles */
 
