@@ -17,7 +17,7 @@
 }
 
 /* Shared Styles */
-.font-bold{
+.font-bold {
   font-weight: bold;
 }
 
@@ -26,88 +26,171 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
-  }  
+  }
 }
 
-.trusted-badge:hover{
+.trusted-badge:hover {
   filter: drop-shadow(0 0 #0000);
   animation: spin 2s linear infinite;
 }
 
-/* Latest Deal Section styles */
-/* .bloom-bg{
-  background-image: url(/images/deal-bloom.png);
-}
-
-.zabo-bg{
-  background-image: url(/images/deal-zabo.png);
-}
-
-.ana-bg{
-  background-image: url(/images/deal-ana.png);
-} */
-
-/* Join Section */
-
-/* .join-section{
-  background-image: url(/images/news-letter-bg.png);
-} */
-
 /* Mobile Screen Responsive */
 @media screen and (max-width: 393px) {
+
   nav,
-  .section-title,
-  .section-description,
-  .card-container
-  {
+
+  .plants-section {
     margin: auto 16px;
   }
 
-  .nav-links{
+  .nav-links {
     display: none;
   }
 
-  .nav-bar{
+  .nav-bar {
     margin: auto 16px;
   }
-  nav > img{
+
+  .logo {
     width: 63px;
   }
-  
-  .banner{
+
+  .banner {
     flex-direction: column-reverse;
   }
 
-  .banner-image{
+  .banner-image {
     max-width: 100%;
     margin: 28px auto;
   }
 
-  .section-title{
+  .banner-content {
+    margin-bottom: 65px;
+    margin: auto 16px;
+  }
+
+  .section-title {
     font-size: 1.5rem;
   }
 
-  .section-description{
+  .section-description {
     font-size: .875rem;
   }
 
-  .card-container{
-    grid-template-columns: repeat(2,1fr);
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0;
+    margin-bottom: 41.5px;
   }
+
+  .plants-content {
+    margin-bottom: 28px;
+  }
+
+  .plants-section-title,
+  .deal-title {
+    margin-bottom: 16px;
+  }
+
   .card-item,
-  .card-button
-  {
+  .card-button {
     width: 100%;
   }
-  .card-button{
+
+  .card-button {
     padding: 19px 30.5px;
     white-space: nowrap;
+    height: 50px;
+    display: flex;
+    align-items: center;
   }
+
   .card-title,
-  .card-price
-  {
+  .card-price {
     font-size: 16px;
   }
+
+  .trusted-badge {
+    display: none;
+  }
+
+  .plants-lover-section {
+    max-width: 393px;
+    margin: auto 16px;
+    margin-bottom: 140px;
+  }
+
+  .plant-lover {
+    flex-direction: column;
+  }
+
+  .plant-lover-image {
+    max-width: calc(393px - 32px)
+  }
+
+  .latest-deal-section{
+    margin-bottom: 45px;
+  }
+
+  .deal-grid {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 361px;
+    height: 581px;
+    margin: auto 16px;
+  }
+
+  .deal-title {
+    font-size: 20px;
+  }
+
+  .deal-description {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .zabo-bg {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .join-section {
+    max-width: 100%;
+    padding: 87.5px 36px;
+  }
+
+  .email-form {
+    width: 218px;
+  }
+
+  .btn-subscribe {
+    width: 103px;
+    padding: 19px 12px;
+  }
+
+  footer {
+    margin: 50px 16px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .logo-footer {
+    width: 160px;
+  }
+
+  .footer-logo-description {
+    font-size: 16px;
+  }
+
+  .footer-link-container,
+  .social-link-container {
+    justify-content: start;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }
