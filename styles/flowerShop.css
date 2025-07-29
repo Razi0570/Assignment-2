@@ -36,7 +36,7 @@
 }
 
 /* Latest Deal Section styles */
-.bloom-bg{
+/* .bloom-bg{
   background-image: url(../images/deal-bloom.png);
   background-repeat: no-repeat;
   border-radius: 15px;
@@ -54,7 +54,7 @@
   background-image: url(../images/deal-ana.png);
   background-repeat: no-repeat;
   border-radius: 15px;
-}
+} */
 
 /* Mobile Screen Responsive */
 @media screen and (max-width: 393px) {
